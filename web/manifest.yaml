@@ -13,11 +13,11 @@ spec:
     image: techworldwithsiva/web:k8
     resources:
       requests:
-        cpu: "100m"
-        memory: "128Mi"
+        cpu: "200m"
+        memory: "256Mi"
       limits:
-        cpu: "100m"
-        memory: "128Mi"
+        cpu: "200m"
+        memory: "256Mi"
     ports:
       - containerPort: 80
 ---
